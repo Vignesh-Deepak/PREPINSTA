@@ -1,0 +1,27 @@
+int main()
+{
+int start=10;
+int end=50;
+for(int i=start;i<=end;i++)
+{
+  temp=i;
+  rev=0;
+  while(temp!=0)
+  {
+    rem=temp%10;
+    rev=rev*10+rem;
+    quot=temp/10;
+    }
+  if(i==rev)
+   printf("enter the palinddrome  is: %d",i);
+   }
+   start =10
+   end=50
+   
+   10 not a palindrome
+   11  (12- 21) NOT A pALINDROME
+   22 
+   33
+   44
+   
+   
