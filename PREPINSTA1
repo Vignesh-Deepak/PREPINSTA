@@ -22,26 +22,26 @@ printf("Enter element at %d index : ",i);
 scanf("%d",&arr[i]);
 }
 
-if(length%2==0)
+if(length%2==0)   // step 1
 {
 oddlen = length/2;
 evenlen = length/2;
 }
 else
 {
-oddlen = length/2;
+oddlen = length/2;   // step 2
 evenlen = (length/2) + 1;
 }
 
 for(i=0;i<length;i++) // seperation of even and odd array
 {
-if(i%2==0)
+if(i%2==0)              // step 3
 {
     even[i/2]=arr[i];
 }
 else
 {
-   odd[i/2]=arr[i];   
+   odd[i/2]=arr[i];   // step 4
 }
  
 }
