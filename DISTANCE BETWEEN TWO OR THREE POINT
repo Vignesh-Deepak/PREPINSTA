@@ -12,6 +12,7 @@ printf("%f",b);
 c = sqrt(((pt3[0]-pt1[0])*(pt3[0]-pt1[0]))+((pt3[1]-pt1[1])*(pt3[1]-pt1[1])));
 printf("%f",c);
 }
+// return a,b,c ;
 
 
 int main()
@@ -24,7 +25,7 @@ printf("enter x2 and y2 : ");
 scanf("%f%f",&p2[0],&p2[1]);
 printf("enter x3 and y3 : ");
 scanf("%f%f",&p3[0],&p3[1]);
-t = isDistance(&p1, &p2, &p3);
+t = isDistance(&p1, &p2, &p3); // p1 ,p2,p3 are arrays 
 printf("%d",t);
 return 0;
 }
