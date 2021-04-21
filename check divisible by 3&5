@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int Calculate(int, int);
+
+int main()
+{
+int m, n, result;
+
+// Getting Input
+
+printf("Enter the value of m : ");
+scanf("%d",&m);
+printf("Enter the value of n : ");
+scanf("%d",&n);
+
+result = Calculate(n,m);
+
+// Getting Output
+
+printf("%d",result);
+
+return 0;
+}
+
+/* Write your code below . . . */
+
+int Calculate(int n, int m)
+{
+// Write your code here
+
+int i, sum = 0;
+for(i=m;i<=n;i++)
+{
+if((i%3==0)&&(i%5==0))
+{
+sum = sum + i;
+}
+}
+
+return sum;
+}
