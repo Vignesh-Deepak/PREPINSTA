@@ -22,6 +22,11 @@ int productSmallestPair(int *array, int n, int sum)
             }
         }
         check = array[0] + array[1];
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+           sum=sum+arr[i];
+        }
         if(check<=sum)
         {
             answer = array[0] * array[1];
