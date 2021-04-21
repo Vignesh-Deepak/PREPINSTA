@@ -37,5 +37,6 @@ sum = sum + i;
 }
 }
 
-return sum;
+return sum;   // here function is not an array it should return something 
+              // in array also if needed to return is not mandatory(but also return) ->important(based on solution)  
 }
