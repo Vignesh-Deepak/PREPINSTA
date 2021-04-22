@@ -100,7 +100,7 @@ sorted even array = 3 7
 sorted odd array =  5 7
 result = 14 ( second hghest to be added)
 
-
+ both program are same (prefer 1st one
 #include <stdio.h>;
  
 int largeSmallSum(int *array, int n)
